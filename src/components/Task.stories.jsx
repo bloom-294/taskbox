@@ -11,7 +11,6 @@ export default {
   component: Task,
   title: 'Task',
   tags: ['autodocs'],
-  //👇 Our exports that end in "Data" are not stories.
   excludeStories: /.*Data$/,
   args: {
     ...ActionsData,
